@@ -1,0 +1,8 @@
+{
+  "cpu": 18,
+  "memory": 32,
+  "request_rate": 180,
+  "latency": 50,
+  "error_rate": 0.01,
+  "replicas": 2
+}

@@ -1,0 +1,15 @@
+{
+  "timeout_seconds": 5,
+  "docker": {"enabled": false},
+  "targets": [
+    {"id": "amf", "url": "http://amf:9090/metrics"},
+    {"id": "smf", "url": "http://smf:9090/metrics"},
+    {"id": "upf", "url": "http://upf:9090/metrics"},
+    {"id": "pcf", "url": "http://pcf:9090/metrics"},
+    {"id": "mme", "url": "http://mme:9090/metrics"},
+    {"id": "hss", "url": "http://hss:9090/metrics"},
+    {"id": "pcrf", "url": "http://pcrf:9090/metrics"},
+    {"id": "cadvisor", "url": "http://cadvisor:8080/metrics"},
+    {"id": "kube_state_metrics", "url": "http://kube-state-metrics:8080/metrics"}
+  ]
+}

@@ -109,3 +109,14 @@ Can a small decision-focused model produce fast, useful and calibrated action pr
 The later 5G question is:
 
 Can the same decision architecture be useful for autonomous network management and security?
+
+## Approved scope expansion (2026-10-06)
+
+The user requested the usability work and comprehensive container/NF metrics.
+Read-only telemetry discovery, source-based Open5GS/Kubernetes metric catalogs,
+collection, replay and shadow recommendations may proceed before integration readiness.
+Collect every available exposed metric rather than maintaining a six-metric allowlist.
+Use a frozen, versioned numeric feature schema for each trained model; retain raw
+metrics and labels so newly exposed metrics can be incorporated explicitly.
+Source definitions alone do not provide training observations or action labels.
+Automatic network actions remain gated on standalone evidence and the integration decision.

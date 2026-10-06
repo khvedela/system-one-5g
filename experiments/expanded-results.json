@@ -1,0 +1,51 @@
+{
+  "config": "experiments/expanded.json",
+  "criteria": "experiments/readiness.json",
+  "rows": [
+    {
+      "seed": 142,
+      "raw_accuracy": 0.9395555555555556,
+      "macro_f1": 0.9423084447489435,
+      "test_accepted_accuracy": 0.9849894926448514,
+      "test_coverage": 0.7402222222222222,
+      "broader_accuracy": 0.898,
+      "broader_accepted_accuracy": 0.9879356568364611,
+      "broader_coverage": 0.746,
+      "ece_before": 0.011564506736066576,
+      "ece_after": 0.009366833256350628,
+      "high_confident_error_rate": 0.005437737901033171,
+      "ood_min_escalation": 1.0,
+      "passed": false
+    },
+    {
+      "seed": 143,
+      "raw_accuracy": 0.9473333333333334,
+      "macro_f1": 0.9513142646608757,
+      "test_accepted_accuracy": 0.9889453241708993,
+      "test_coverage": 0.7437777777777778,
+      "broader_accuracy": 0.899,
+      "broader_accepted_accuracy": 0.9879356568364611,
+      "broader_coverage": 0.746,
+      "ece_before": 0.009066144214736064,
+      "ece_after": 0.009156065828270405,
+      "high_confident_error_rate": 0.00802485115195444,
+      "ood_min_escalation": 1.0,
+      "passed": false
+    },
+    {
+      "seed": 144,
+      "raw_accuracy": 0.95,
+      "macro_f1": 0.9527057626730763,
+      "test_accepted_accuracy": 0.9895083932853717,
+      "test_coverage": 0.7413333333333333,
+      "broader_accuracy": 0.901,
+      "broader_accepted_accuracy": 0.9932885906040269,
+      "broader_coverage": 0.745,
+      "ece_before": 0.008879024691051883,
+      "ece_after": 0.008061052746242914,
+      "high_confident_error_rate": 0.006740990407052113,
+      "ood_min_escalation": 1.0,
+      "passed": false
+    }
+  ]
+}

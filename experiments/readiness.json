@@ -1,0 +1,18 @@
+{
+  "version": "standalone-readiness-v1",
+  "scope": "Provisional standalone experiment criteria, not permission for network control",
+  "accuracy_min": 0.95,
+  "macro_f1_min": 0.95,
+  "ece_max": 0.02,
+  "accepted_accuracy_min": 0.99,
+  "coverage_min": 0.70,
+  "broader_accepted_accuracy_min": 0.98,
+  "broader_coverage_min": 0.50,
+  "high_confidence_error_rate_max": 0.001,
+  "latency_p95_ms_max": 1.0,
+  "ood_escalation_rate_min": 0.95,
+  "new_in_distribution_guard_escalation_max": 0.05,
+  "simulator_cost_vs_rule_max": 1.0,
+  "simulator_cost_vs_no_action_max": 0.95,
+  "real_labeled_telemetry_required": true
+}
